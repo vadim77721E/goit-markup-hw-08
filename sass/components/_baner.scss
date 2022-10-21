@@ -1,0 +1,11 @@
+.title-baner{
+    background: var(--primary-text-color-theme-dark-light); 
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+    url("../images/hero/Img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1600px;
+ }

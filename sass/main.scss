@@ -1,0 +1,31 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/common';
+@import './base/container';
+
+@import './components/logo-header';
+@import './components/current';
+@import './components/page-nav';
+@import './components/baner';
+@import './components/main-title';
+@import './components/modal-btn';
+@import './components/work-text';
+@import './components/backdrop';
+@import './components/modal-backdrop';
+@import './components/checkbox-wrapper';
+@import './components/form-btn';
+@import './components/market';
+@import './components/modal-portfolio';
+
+@import './layout/nav';
+@import './layout/contacts';
+@import './layout/work-section';
+@import './layout/work-cart';
+@import './layout/team';
+@import './layout/client-section';
+@import './layout/footer';
+@import './layout/social-footer';
+@import './layout/form-footer';
+@import './layout/input-form';
+@import './layout/photo-marcket';

@@ -1,0 +1,12 @@
+.photo-market > .container {
+    flex-direction: column;
+}
+
+.header-photo {
+    border-bottom: 1px solid #ECECEC;
+}
+.photo-market{
+    background-color: var(--secondary-text-color-theme-whaite);
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
