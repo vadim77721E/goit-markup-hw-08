@@ -9,16 +9,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
 <!--шапка-->
 <header class="page-header">
     <div class="container header-container">
         <nav class="page-nav">
-            <a  href="/index.html" class="logo link">
-                Web<span  class="logo__img">Studio</span>
-            </a>
+            <a href="/index.html" class="logo link">
+                Web<span  class="logo__img">Studio</span></a>
+                <button type="button" class="burder-btn">
+                    <svg class="mobail-burger-btn" width="40" height="40">
+                        <use href="./images/sprite.svg#menu"></use>
+                    </svg>
+                </button>
+                <div class="mobal-menu">
+                    <button type="button" class="modal-menu_close-btn">
+                        <svg class="mobal__close-icon" width="18" height="18">
+                            <use href="./images/sprite.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                </div>
             <ul class="nav-list list">
                 <li class="nav-list__item"> <a href="/" class="current link ">Студія</a></li>
                 <li class="nav-list__item"> <a href="./portfolio.html" class="link">Портфоліо</a></li>
@@ -42,14 +53,14 @@
         </ul>
     </div>
 </header>
-    <section class="title-baner">
+    <!-- <section class="title-baner">
         <div class="container">
             <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="modal-btn"  data-modal-open>Замовити послугу</button>  
         </div>
     </section>
-<!--Список-->
-<section class="work-title"> 
+<!-- Список-->
+<!-- <section class="work-title"> 
     <div class="container">
         <h2 class="visually-hidden">Робочі процеси</h2>
         <ul class=" text-work list">
@@ -90,11 +101,11 @@
               <p class="text-title-one">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
           </li>
         </ul>
-    </div>
-</section>
-<section class="working-title">
+    </div> -->
+</section> -->
+<!-- <section class="working-title">
     <!--Картинки з роботи-->
-    <div class="container">
+    <!-- <div class="container">
         <h2 class="blockquote">Чим ми займаємося</h2>
         <ul class=" items-cart list">
           <li class="items-cart__work">
@@ -110,10 +121,10 @@
               <h3 class="items-cart__label sublabel">Дизайнерські рішення</h3> 
           </li>
         </ul>
-    </div>
-    </section>
+    </div> -->
+    </section> -->
 <!--КОМАНДА-->
-<section class="work-profession">
+<!-- <section class="work-profession">
     <div class="container">
         <h2 class="blockquote">Наша команда</h2>
         <ul class="employees list" >
@@ -287,8 +298,8 @@
             </li>
         </ul>
     </div> 
-</section>
-<section class="title-client">
+</section> -->
+<!-- <section class="title-client">
 <div class="container">
     <h2 class="blockquote ">Постійні клієнти</h2>
     <div class="container-client">
@@ -340,7 +351,7 @@
 </div>
 </section>
 <!--футер-->
-<footer class="footer-background">
+<!-- <footer class="footer-background">
     <div class="container">
         <div class="footer-decor">
             <a href="/index.html" class="logo link ">
@@ -399,8 +410,8 @@
                     </svg>
                 </button>
             </form>       
-    </div>    
-</footer>
+    </div>     -->
+</footer> -->
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button  type="button" class="modal__close-btn" data-modal-close>

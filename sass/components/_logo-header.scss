@@ -1,10 +1,11 @@
 .logo{
+   display: flex;
    font-family: var(--secondary-font-family);
    font-weight: 700;
    font-size: 26px;
    line-height: 1.19;
    color: var(--secondary-text-color-theme-light);
-   margin-right: 93px;
+//    margin-right: 93px;
 }
 .logo__img{
     color: var(--primary-text-color-theme-dakr);

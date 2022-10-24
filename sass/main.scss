@@ -1,7 +1,10 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import './utils/breakpoints';
+
 @import './base/common';
 @import './base/container';
+
 @import './components/logo-header';
 @import './components/current';
 @import './components/page-nav';
@@ -15,6 +18,7 @@
 @import './components/form-btn';
 @import './components/market';
 @import './components/modal-portfolio';
+
 @import './layout/nav';
 @import './layout/contacts';
 @import './layout/work-section';
