@@ -1,35 +1,48 @@
-.list-ul{
-    display: none;
+@media screen and(max-width:768px) {
+    .list-ul{
+        display: none;
+    }
+  }
+
+
+
+@media screen and (min-width:768px) {
+    .list-ul{
+        display: block;
+        margin-left: 96px;
+    }
+    .list-ul__phone-mail {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        line-height: 1.42;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color-theme-light);
+    
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover,
+        &:focus {
+           color: var(--accent-color);
+        } 
+    }
+    
+    
+    .list-ul__contacts:not(:last-child){
+        margin-right: 50px; 
+    }
+    
+    .list-ul__icon {
+        margin-right: 10px;
+        fill: currentColor;
+    }
 }
 
-// .list-ul{
-//     display: flex;
-//     margin-left: auto;
-// }
+@media screen and (min-width:1200px){
+    .list-ul{
+        display: flex;
+        margin-left: auto;
+    }
+}
 
 
-// .list-ul__phone-mail {
-//     display: flex;
-//     align-items: center;
-//     font-weight: 500;
-//     line-height: 1.42;
-//     letter-spacing: 0.02em;
-//     color: var(--primary-text-color-theme-light);
-
-//     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-//     &:hover,
-//     &:focus {
-//        color: var(--accent-color);
-//     } 
-// }
-
-
-// .list-ul__contacts:not(:last-child){
-//     margin-right: 50px; 
-// }
-
-// .list-ul__icon {
-//     margin-right: 10px;
-//     fill: currentColor;
-// }

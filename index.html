@@ -16,33 +16,20 @@
 <header class="page-header">
     <div class="container header-container">
         <nav class="page-nav">
-            <a href="/index.html" class="logo link">
-                Web<span  class="logo__img">Studio</span></a>
-                <button type="button" class="burder-btn">
-                    <svg class="mobail-burger-btn" width="40" height="40">
-                        <use href="./images/sprite.svg#menu"></use>
-                    </svg>
-                </button>
-                <div class="mobal-menu">
-                    <div class="container mobal-menu_container">
-                        <button type="button" class="modal-menu_close-btn">
-                            <svg class="mobal__close-icon" width="18" height="18">
-                                <use href="./images/sprite.svg#icon-close"></use>
-                            </svg>
-                        </button>
-                        <ul class="mobal-menu_ul">
-                            <li class="mobal-menu_li link list">Студія</li>
-                            <li class="mobal-menu_li link list">Портфоліо</li>
-                            <li class="mobal-menu_li link list">Контакти</li>
-                        </ul>
-                    </div>
-                </div>
+            <a  href="/index.html" class="logo link">
+                Web<span  class="logo__img">Studio</span>
+            </a>
             <ul class="nav-list list">
                 <li class="nav-list__item"> <a href="/" class="current link ">Студія</a></li>
                 <li class="nav-list__item"> <a href="./portfolio.html" class="link">Портфоліо</a></li>
                 <li class="nav-list__item"> <a href="/" class=" link ">Контакти</a></li>
             </ul>
         </nav>
+        <button type="button" class="burger-btn" data-menu-open>
+            <svg class="icon-menu" width="40" height="40" >
+                <use href="./images/sprite.svg#icon-menu"></use>
+            </svg>
+        </button>
         <ul class="list-ul list">
             <li class="list-ul__contacts">
                 <a class="list-ul__phone-mail link"   href="info@devstudio.com">
@@ -59,14 +46,28 @@
             </li>
         </ul>
     </div>
+    <div class="mobal-menu" data-menu>
+        <div class="container mobal-menu_container">
+            <button type="button" class="mobal-menu_close-btn" data-menu-close>
+                <svg class="mobal-menu_icon-close" width="40" height="40">
+                    <use href="./images/sprite.svg#menu-close"></use>
+                </svg>
+            </button>
+            <ul class="menu-navigation link list">
+                <li class="list-menu">Студія</li>
+                <li class="list-menu">Портфоліо</li>
+                <li class="list-menu">Контакти</li>
+            </ul>
+        </div>
+        </div>       
 </header>
-    <!-- <section class="title-baner">
+    <section class="title-baner">
         <div class="container">
             <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="modal-btn"  data-modal-open>Замовити послугу</button>  
         </div>
     </section>
-<!-- Список-->
+<!--Список-->
 <!-- <section class="work-title"> 
     <div class="container">
         <h2 class="visually-hidden">Робочі процеси</h2>
@@ -108,11 +109,11 @@
               <p class="text-title-one">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
           </li>
         </ul>
-    </div> -->
+    </div>
 </section> -->
+<!--Картинки з роботи-->
 <!-- <section class="working-title">
-    <!--Картинки з роботи-->
-    <!-- <div class="container">
+    <div class="container">
         <h2 class="blockquote">Чим ми займаємося</h2>
         <ul class=" items-cart list">
           <li class="items-cart__work">
@@ -128,7 +129,7 @@
               <h3 class="items-cart__label sublabel">Дизайнерські рішення</h3> 
           </li>
         </ul>
-    </div> -->
+    </div>
     </section> -->
 <!--КОМАНДА-->
 <!-- <section class="work-profession">
@@ -356,7 +357,7 @@
         </ul>
     </div>
 </div>
-</section>
+</section> -->
 <!--футер-->
 <!-- <footer class="footer-background">
     <div class="container">
@@ -417,7 +418,7 @@
                     </svg>
                 </button>
             </form>       
-    </div>     -->
+    </div>    
 </footer> -->
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
@@ -469,7 +470,8 @@
       </form>
     </div>
 </div>
+
 <script src="./js/modal.js"></script>
-<script src="./js/menu.js"></script>
+<script src="./js/mobal-menu.js"></script>
 </body>
 </html>
