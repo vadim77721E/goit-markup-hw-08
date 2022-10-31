@@ -117,27 +117,88 @@
         <h2 class="blockquote">Чим ми займаємося</h2>
         <ul class=" items-cart list">
           <li class="items-cart__work">
-              <img src="./images/верстка1.png" alt="верстка" width="370" height="294">
+                <picture>
+                 <source srcset="
+                 ./images/activity/destop/destop__1@x1.webp 1x, 
+                 ./images/activity/destop/destop__2@x2.webp 2x, 
+                 ./images/activity/destop/destop__3@x3.webp 1x.webp 3x" type="image/webp" />
+                 <img srcset="
+                 ./images/activity/destop/destop__1@x1.jpg 1x, 
+                 ./images/activity/destop/destop__2@x2.jpg 2x,
+                 ./images/activity/destop/destop__3@x3.jpg 3x"
+                  src="./images/activity/destop/destop__1@x1.jpg"
+                  alt="Людина розробляє додатки" width="370" />
+                </picture>
               <h3 class="items-cart__label sublabel">Десктопні додатки</h3>
-          </li>
-          <li class="items-cart__work">
-              <img src="./images/стилізація.png" alt="стилізація" width="370" height="294">
+            </li>
+            <li class="items-cart__work">
+                <picture>
+                 <source srcset="
+                  ./images/activity/tablet/tablet__@x1.webp 1x, 
+                  ./images/activity/tablet/tablet__@x2.webp 2x, 
+                  ./images/activity/tablet/tablet__@x3.webp 1x.webp 3x" type="image/webp" />
+                  <img srcset="
+                  ./images/activity/tablet/tablet__@x1.jpg 1x, 
+                  ./images/activity/tablet/tablet__@x2.jpg 2x,
+                  ./images/activity/tablet/tablet__@x3.jpg 3x"
+                  src="./images/activity/tablet/tablet__@x1.jpg"
+                  alt="Людина розробляє додатки" width="370" />
+                </picture>
               <h3 class="items-cart__label sublabel">Мобільні додатки</h3>
-          </li>
-          <li class="items-cart__work"> 
-              <img src="./images/графіка.png" alt="графіка" width="370" height="294">
+            </li>
+            <li class="items-cart__work"> 
+                <picture>
+                    <source srcset="
+                     ./images/activity/picur/picur__@x1.webp 1x, 
+                     ./images/activity/picur/picur__@x2.webp 2x, 
+                     ./images/activity/picur/picur__@x3.webp 1x.webp 3x" type="image/webp" />
+                     <img srcset="
+                     ./images/activity/picur/picur__@x1.jpg 1x, 
+                     ./images/activity/picur/picur__@x2.jpg 2x,
+                     ./images/activity/picur/picur__@x3.jpg 3x"
+                     src="./images/activity/picur/picur__@x1.jpg"
+                     alt="Людина розробляє додатки" width="370" />
+                </picture>
               <h3 class="items-cart__label sublabel">Дизайнерські рішення</h3> 
-          </li>
+            </li>
         </ul>
     </div>
     </section>
 <!--КОМАНДА-->
-<!-- <section class="work-profession">
+<section class="work-profession">
     <div class="container">
         <h2 class="blockquote">Наша команда</h2>
         <ul class="employees list" >
             <li class="employees__cart" >
-                    <img src="./images/product.png" alt="працівник 1" width="270" height="260">
+                <picture>
+                    <source srcset="
+                    ./images/team__1/mobil__@x1.webp 1x, 
+                    ./images/team__1/mobil__@x2.webp 2x"   media="(max-width: 767px)" type="image/webp"/>
+
+                    <source srcset=" 
+                    ./images/team__1/tablet__@x1.webp 1x, 
+                    ./images/team__1/tablet__@x2.webp 2x" media="(min-width: 768px)"
+                    type="image/webp"/>
+
+                    <source srcset=" 
+                    ./images/team__1/destop__@x1.webp 1x, 
+                    ./images/team__1/destop__@x2.webp 2x" media="(min-width: 1200px)"
+                    type="image/webp"/>
+                    
+                    <source srcset="
+                    ./images/team__1/destop__@x1.jpg 1x, 
+                    ./images/team__1/destop__@2x.jpg 2x" media="(min-width: 1200px)" />
+
+                    <source srcset="
+                    ./images/team__1/tablet__@x1.jpg 1x, 
+                    ./images/team__1/tablet__@x2.jpg 2x" media="(min-width: 768px)" />
+                     
+                    <img srcset="
+                    ./images/team__1/mobil__@x1.jpg 1x, 
+                    ./images/team__1/mobil__@x2.jpg 2x"
+                    src="/images/team__1/mobil__@x1.jpg" alt="фото Ігор  Дем'яненко" />
+
+                </picture>
                     <div class="employees__socials">
                         <h3 class="employees__name"> Ігор Дем'яненко</h3>
                         <p class="profession"> Product Designer
@@ -306,7 +367,7 @@
             </li>
         </ul>
     </div> 
-</section> -->
+</section>
 <!-- <section class="title-client">
 <div class="container">
     <h2 class="blockquote ">Постійні клієнти</h2>
