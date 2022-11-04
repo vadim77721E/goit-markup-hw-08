@@ -730,7 +730,7 @@ img {
   margin: 0;
   padding: 27px;
   text-align: center;
-  width: 100%;
+  width: 370px;
   height: 70px;
   color: var(--secondary-text-color-theme-whaite);
   background: rgba(47, 48, 58, 0.8);
@@ -841,8 +841,14 @@ img {
 }
 
 .title-client {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .title-client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .title-clien > .container {
@@ -851,11 +857,29 @@ img {
 
 .main-client {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: -15px;
 }
 
 .main-client__items {
-  box-sizing: border-box;
+  width: 100%;
+  height: 90px;
+  margin: 15px;
+}
+@media screen and (min-width: 480px) {
+  .main-client__items {
+    flex-basis: calc((100% - 60px) / 2);
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-client__items {
+    flex-basis: calc((100% - 90px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-client__items {
+    flex-basis: calc((100% - 180px) / 6);
+  }
 }
 
 .main-client__img {
@@ -863,7 +887,7 @@ img {
 }
 
 .main-client__list {
-  display: inline-flex;
+  display: flex;
   width: 100%;
   height: 100%;
   border-radius: 4px;
@@ -879,24 +903,25 @@ img {
   fill: var(--secondary-text-color-theme-light);
 }
 
-.main-client > .main-client__items {
-  height: 90px;
-  width: 170px;
-}
-
-.main-client {
-  display: flex;
-  justify-content: space-between;
-}
-
-.address-footer-link {
-  margin-top: 20px;
-}
-
 .footer-background {
   background: var(--primary-text-color-theme-dark-light);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .footer__container {
+    flex-wrap: unset;
+    justify-content: space-between;
+  }
 }
 
 .footer-logo {
@@ -932,12 +957,39 @@ img {
 }
 
 .footer-decor {
-  width: 231px;
-  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-decor {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-decor {
+    align-items: flex-start;
+    margin-bottom: unset;
+  }
 }
 
 .social {
-  min-width: 206px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .social {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .social {
+    margin-bottom: unset;
+    align-items: flex-start;
+  }
 }
 
 .footer-background .container {
@@ -949,6 +1001,10 @@ img {
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
+}
+
+.social__clip:not(:last-child) {
+  margin-right: 10px;
 }
 
 .icon-color {
@@ -991,21 +1047,39 @@ img {
 }
 
 .form-footer {
-  min-width: 570px;
-  margin-left: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 1199px) {
+  .form-footer {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form-footer {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
 }
 
 .form__subscription {
-  display: inline-flex;
-  min-width: 358px;
-  margin-right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .form__subscription {
+    flex-direction: row;
+    align-items: flex-start;
+  }
 }
 
 .sing-email {
-  display: inline-block;
   width: 100%;
-  margin: 0;
   padding: 14px 16px;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -1016,6 +1090,17 @@ img {
   background-color: inherit;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .sing-email {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .sing-email {
+    width: 358px;
+    align-items: flex-start;
+  }
+}
 .sing-email::placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -1025,12 +1110,12 @@ img {
 
 .sign-btn {
   display: inline-flex;
-  align-items: center;
   padding: 10px 28px;
-  margin-left: -4px;
+  align-items: center;
 }
 
 .icon-sub {
+  margin-top: 10px;
   margin-left: 10px;
 }
 
