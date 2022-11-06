@@ -63,6 +63,10 @@ img {
   margin-bottom: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 100%;
   margin-left: auto;
