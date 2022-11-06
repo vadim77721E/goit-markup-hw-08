@@ -21,7 +21,7 @@
    @media screen and (min-width: 1200px) {
       flex-direction: row;
       align-items: flex-start;
-  }
+    }
 
 }
 .sing-email{
@@ -66,6 +66,8 @@
 }
 
 .icon-sub{
-    margin-top: 10px;
     margin-left: 10px;
+}
+.form-footer{
+    display: flex;
 }

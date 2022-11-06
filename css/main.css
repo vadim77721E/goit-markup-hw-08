@@ -160,10 +160,9 @@ img {
 }
 .title-baner {
   background: var(--primary-text-color-theme-dark-light);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/hero/destop/Img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 200px 0;
+  padding: 118px 0;
   text-align: center;
   margin: 0 auto;
 }
@@ -171,34 +170,24 @@ img {
   .title-baner {
     max-width: 480px;
     height: 400px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/mobile/baner-mobile.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/hero/mobile/mobile@x1.jpg");
   }
 }
 @media screen and (max-width: 768px) and (min-device-pixel-ratio: 2), screen and (max-width: 768px) and (min-resolution: 192dpi), screen and (max-width: 768px) and (min-resolution: 2dppx) {
   .title-baner {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/mobile/baner-mobile@x2.jpg);
-  }
-}
-@media screen and (max-width: 768px) and (min-device-pixel-ratio: 3), screen and (max-width: 768px) and (min-resolution: 288dpi), screen and (max-width: 768px) and (min-resolution: 3dppx) {
-  .title-baner {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/mobile/baner-mobile@x3.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/mobile/mobile@x2.jpg);
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .title-baner {
-    max-width: 768px;
+    max-width: 768;
     height: 400px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/table/baner-table.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/table/tablet@x1.jpg);
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (max-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (max-width: 768px) and (min-resolution: 2dppx) {
   .title-baner {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/table/baner-table@x2.jpg);
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 768px) and (min-device-pixel-ratio: 3), screen and (min-width: 481px) and (max-width: 768px) and (min-resolution: 288dpi), screen and (min-width: 481px) and (max-width: 768px) and (min-resolution: 3dppx) {
-  .title-baner {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/table/baner-table@x3.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/table/tablet@x2.jpg);
   }
 }
 @media screen and (min-width: 769px) {
@@ -206,17 +195,12 @@ img {
     max-width: 1600px;
     height: 600px;
     padding: 200px 0;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/destop/baner-destop.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/destop/destop@x1.jpg);
   }
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .title-baner {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/destop/baner-destop@x2.jpg);
-  }
-}
-@media screen and (min-width: 769px) and (min-device-pixel-ratio: 3), screen and (min-width: 769px) and (min-resolution: 288dpi), screen and (min-width: 769px) and (min-resolution: 3dppx) {
-  .title-baner {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/destop/baner-destop@x3.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/destop/destop@x2.jpg);
   }
 }
 
@@ -227,7 +211,6 @@ img {
   font-size: 26px;
   line-height: 1.62;
   margin-top: 0px;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-text-color-theme-whaite);
@@ -243,6 +226,10 @@ img {
     font-size: 44px;
     line-height: 1.36;
   }
+}
+
+.hero__button {
+  padding: 10px 32px;
 }
 
 .modal-btn {
@@ -992,11 +979,6 @@ img {
   }
 }
 
-.footer-background .container {
-  display: flex;
-  align-items: baseline;
-}
-
 .social__list {
   display: flex;
   justify-content: space-between;
@@ -1098,6 +1080,7 @@ img {
 @media screen and (min-width: 1200px) {
   .sing-email {
     width: 358px;
+    margin-right: 12px;
     align-items: flex-start;
   }
 }
@@ -1115,8 +1098,11 @@ img {
 }
 
 .icon-sub {
-  margin-top: 10px;
   margin-left: 10px;
+}
+
+.form-footer {
+  display: flex;
 }
 
 .text-backdrop {
