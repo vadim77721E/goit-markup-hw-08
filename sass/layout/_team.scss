@@ -49,7 +49,12 @@
 
 .social-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width:1200px) {
+      justify-content: space-between;
+    }
 }
 .social-list__thumbnail{
     display: flex;
