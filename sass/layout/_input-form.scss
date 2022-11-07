@@ -1,11 +1,19 @@
+// .contact-form{
+//     // border-radius: inherit;
+// }
+
 .text-backdrop{
     font-weight: 700;
     margin-bottom: 12px;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: 1.5;
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--primary-text-color-theme-dakr);
+
+    @media screen and (min-width: 1200px) {
+        line-height: 1.15;
+    }
 }
 
 .text-form{
