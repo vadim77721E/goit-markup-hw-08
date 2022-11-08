@@ -369,6 +369,15 @@ a {
   transition: background-color var(--accent-color) var(--function-bezier);
 }
 
+.text-checkbox-label {
+  font-size: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .text-checkbox-label {
+    font-size: 14px;
+  }
+}
+
 .contact-form-btn {
   display: block;
   padding: 10px 55px;

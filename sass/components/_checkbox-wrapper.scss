@@ -50,3 +50,10 @@
     margin: 0 auto;
     transition: background-color var(--accent-color) var(--function-bezier);
 }
+.text-checkbox-label{
+    font-size: 12px;
+
+    @media screen and (min-width:1200px) {
+        font-size: 14px;
+    }
+}
