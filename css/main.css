@@ -69,6 +69,7 @@ a {
 
 .container {
   width: 100%;
+  padding: 0px 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -395,8 +396,14 @@ a {
 
 .photo-market {
   background-color: var(--secondary-text-color-theme-whaite);
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .photo-market {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
 }
 
 .modal-button__primary {
@@ -1276,10 +1283,21 @@ a {
   color: var(--primary-text-color-theme-light);
 }
 
-.padding-img {
-  flex-basis: calc((100% - 270px) / 9);
-  margin-left: 30px;
-  margin-top: 30px;
+@media screen and (max-width: 767px) {
+  .padding-img:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .padding-img {
+    flex-basis: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .padding-img {
+    flex-basis: calc((100% - 90px) / 3);
+  }
 }
 
 .photo-text {
