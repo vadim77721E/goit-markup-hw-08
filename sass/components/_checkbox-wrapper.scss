@@ -5,14 +5,12 @@
     display: inline-block;
     font-size: 12px;
     line-height: 1.17;
+
     text-decoration: underline;
     color: var(--accent-color);
     text-decoration-skip-ink: none;
 
-    @media screen and (min-width: 1200px) {
-        font-style: 14px;
-        line-height: 1.71;
-    }
+   
 }
 .text-checkbox-label{
     display: flex;
@@ -52,6 +50,7 @@
 }
 .text-checkbox-label{
     font-size: 12px;
+    font-weight: 400;
 
     @media screen and (min-width:1200px) {
         font-size: 14px;

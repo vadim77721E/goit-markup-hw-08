@@ -2,6 +2,7 @@
     background: var(--primary-text-color-theme-dark-light); 
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     padding: 118px 0;
     text-align: center;
     margin: 0 auto;
@@ -27,7 +28,7 @@
     }
 
     @media screen and (min-width: 481px) and (max-width:768px) {
-      max-width: 768;
+      max-width: 768px;
       height: 400px;
       background-image: linear-gradient(
         to right,
@@ -50,8 +51,8 @@
 
     @media screen and (min-width:769px) {
       max-width: 1600px;
-      height: 600px;
-      padding: 200px 0;
+      // height: 600px;
+      padding: 118px 0;
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
@@ -69,5 +70,9 @@
         ),
       url("../images/activity/hero__destop/destop@x2.jpg");
     }
+  }
+
+  @media screen and (min-width:1200px) {
+    padding: 200px 0;
   }
 }
