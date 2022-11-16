@@ -44,15 +44,16 @@
     justify-content: center;
     align-items: center;
     border: 1px solid var(--secondary-text-grey-link);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover .main-client__img,
+    &:focus .main-client__img{
+      fill: var(--secondary-text-color-theme-light);
+    }
 
     &:hover,
     &:focus {
       border-color: var(--secondary-text-color-theme-light);
-    }
-    &:hover svg,
-    &:focus svg{
-      fill: var(--secondary-text-color-theme-light);
     }
 }
 

@@ -75,7 +75,6 @@
 }
 .contact-form-message{
     width: 100%;
-    height: 120px;
     margin-top: 4px;
     padding: 12px 12px;
     resize: none;
@@ -90,6 +89,10 @@
     }
     &::placeholder{
         color: rgba(117, 117, 117, 0.5);
+    }
+
+    @media screen and (min-width:480px) {
+        height: 120px;
     }
 }
 
