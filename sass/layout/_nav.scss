@@ -71,7 +71,7 @@
 .link.current{
   color: var(--secondary-text-color-theme-light);
 }
-.current:hover,
+.current:hover::after,
 .current:focus{
   color: #2196f3;;
 }

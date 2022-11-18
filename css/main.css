@@ -575,7 +575,7 @@ img {
 }
 @media screen and (min-width: 480px) {
   .menu__social-list {
-    font-size: 18px;
+    font-size: 12px;
   }
 }
 
@@ -651,7 +651,7 @@ img {
   color: var(--secondary-text-color-theme-light);
 }
 
-.current:hover,
+.current:hover::after,
 .current:focus {
   color: #2196f3;
 }
