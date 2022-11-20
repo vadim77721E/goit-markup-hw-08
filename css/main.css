@@ -289,7 +289,7 @@ img {
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .modal {
     position: absolute;
     top: 50%;
@@ -328,7 +328,7 @@ img {
 .modal__close-btn:hover, .modal__close-btn:focus {
   color: var(--accent-color);
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 319px) {
   .modal__close-btn {
     top: 101px;
     right: 23px;
@@ -891,7 +891,6 @@ img {
 }
 .social-list__thumbnail:hover .social-list__icon, .social-list__thumbnail:focus .social-list__icon {
   fill: var(--secondary-text-color-theme-whaite);
-  background: var(--secondary-text-color-theme-light);
 }
 
 .work-profession {
