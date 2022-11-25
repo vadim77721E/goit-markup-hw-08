@@ -73,6 +73,7 @@
 
 .social-list__icon{
     fill: var(--secondary-text-grey-link);
+    transition: fill var(--time-transition)  var(--function-bezier) ;
 
     .social-list__thumbnail:hover &,
     .social-list__thumbnail:focus & {
